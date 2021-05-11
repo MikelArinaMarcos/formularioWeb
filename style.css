@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #010101;
+    background: #696969;
 }
 
 .formulario {
-    width: 600px;
+    width: 80%;
+    max-width: 1000px;
     background: #FFFFFF;
     padding: 30px;
     margin: auto;
@@ -14,37 +15,38 @@
     border-radius: 4px;
     color: black;
     box-shadow: 0 0 20px 0;
+    box-sizing:border-box;
 }
 
 
 .formulario img {
-    height: 100%;
+    height: auto;
     width: 100%;
     color: #FFFFFF;
-    border: none;
-    background-color: #FFFFFF;
 }
 
 .formulario p {
     font-size: 20px;
-    height: 100%;
+    height: auto;
     text-align: center;
     background: #FFFFFF;
     color: #000000;
     padding: 30px;
     border: none;
-    background-color: #FFFFFF;
+
 }
 
 .campos {
-    width: 100%;
+    width: 45%;
     background: none;
+    margin:auto;
     padding: 10 px;
     border-radius: 4px;
     margin-bottom: 32px;
     border: none;
     border-bottom: 1px solid #000000;
     outline: none;
+    box-sizing:border-box;
 }
 
 .boton {
@@ -54,4 +56,10 @@
     border: none;
     padding: 1em;
     font-size: 18px;
+}
+
+@media screen and (max-width: 800px){
+    .campos {
+        display: block;
+    }
 }

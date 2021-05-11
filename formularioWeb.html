@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Barcelona Virtual</title>
     <script src="validacion.js"></script>
+    <meta name="viewport" content="width=device.width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
     <form onsubmit="return validar();">
-        <section class="formulario">
-            <div class="cabecera">
+        <div class="formulario">
+            <section class="cabecera">
                 <img src="BV.jfif";>
                 <p>Por favor, rellena los campos siguientes:</p>
-            </div>
-            <div class="campos">
+            </section>
+            <section class="campos">
                 <input class="campos" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
                 <input class="campos" type="text" id="apellido" name="apellido" placeholder="Apellido" required>
                 <input class="campos" type="email" id="email" name="nombre" placeholder="Email" required>
                 <input class="campos" type="email" id="confemail" name="nombre" placeholder="Repetir Email" required>
                 <input class="campos" type="text" id="dni" name="nombre" placeholder="DNI" required>
                 <input class="campos" type="text" id="movil" name="nombre" placeholder="Móvil" required>
-            </div>
-            <div class="boton">
+            </section>
+            <section class="boton">
                 <input class="boton" type="submit" name="enviar">
-            </div>
-        </section>
+            </section>
+        </div>
     </form>
 </body>
 </html>
