@@ -9,14 +9,21 @@
 <body>
     <form onsubmit="return validar();">
         <section class="formulario">
-            <p>Por favor, rellena los campos siguientes:</p>
-            <input class="campos" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-            <input class="campos" type="text" id="apellido" name="apellido" placeholder="Apellido" required>
-            <input class="campos" type="email" id="email" name="nombre" placeholder="Email" required>
-            <input class="campos" type="email" id="confemail" name="nombre" placeholder="Repetir Email" required>
-            <input class="campos" type="text" id="dni" name="nombre" placeholder="DNI" required>
-            <input class="campos" type="text" id="movil" name="nombre" placeholder="Móvil" required>
-            <input class="boton" type="submit" name="enviar">
+            <div class="cabecera">
+                <img src="BV.jfif";>
+                <p>Por favor, rellena los campos siguientes:</p>
+            </div>
+            <div class="campos">
+                <input class="campos" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input class="campos" type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                <input class="campos" type="email" id="email" name="nombre" placeholder="Email" required>
+                <input class="campos" type="email" id="confemail" name="nombre" placeholder="Repetir Email" required>
+                <input class="campos" type="text" id="dni" name="nombre" placeholder="DNI" required>
+                <input class="campos" type="text" id="movil" name="nombre" placeholder="Móvil" required>
+            </div>
+            <div class="boton">
+                <input class="boton" type="submit" name="enviar">
+            </div>
         </section>
     </form>
 </body>
