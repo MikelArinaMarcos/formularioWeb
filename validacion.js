@@ -9,5 +9,6 @@ function validar(){
 
     if(nombre == ""){
         alert("Introduzca el nombre");
+        return false;
     }
 }
