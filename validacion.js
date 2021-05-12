@@ -1,14 +1,30 @@
-function validar(){
-    var nombre, apellido, email, confemail, dni, movil, expresion;
-    nombre = document.getElementById("nombre").value;
-    apellido = document.getElementById("apellido").value;
-    email = document.getElementById("email").value;
-    confemail = document.getElementById("confemail").value;
-    dni = document.getElementById("dni").value;
-    movil = document.getElementById("movil").value;
+var nombre = document.getElementById('nombre');
+var apellido = document.getElementById('apellido');
+var email = document.getElementById('email');
+var confemail = document.getElementById('confemail');
+var dni = document.getElementById('dni');
+var movil = document.getElementById('movil');
 
-    if(nombre == ""){
-        alert("Introduzca el nombre");
-        return false;
+function validar(){
+    if(nombre.value == null || nombre.value == ''){
+        alert("Escribe el nombre");
+    }
+    if(apellido.value == null || nombre.value == ''){
+        alert("Escribe el apellido");
+    }
+    if(email.value == null || nombre.value == ''){
+        alert("Escribe el email");
+    }
+    if(confemail.value == null || != email.value){
+        alert("El email es diferente");
+    }
+    if(dni.value == null || nombre.value == ''){
+        alert("Escribe el dni");
+    }
+    if(movil.value == null || nombre.value == ''){
+        alert("Escribe el movil");
+    }
+    else{
+        alert("Todo correcto.");
     }
 }

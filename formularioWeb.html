@@ -9,23 +9,25 @@
 </head>
 <body>
     <form onsubmit="return validar();">
-        <div class="formulario">
+        <div class="formulario" id="formulario">
             <section class="cabecera">
                 <img src="BV.jfif";>
                 <p>Por favor, rellena los campos siguientes:</p>
             </section>
             <section class="campos">
-                <input class="campos" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-                <input class="campos" type="text" id="apellido" name="apellido" placeholder="Apellido" required>
-                <input class="campos" type="email" id="email" name="nombre" placeholder="Email" required>
-                <input class="campos" type="email" id="confemail" name="nombre" placeholder="Repetir Email" required>
-                <input class="campos" type="text" id="dni" name="nombre" placeholder="DNI" required>
-                <input class="campos" type="text" id="movil" name="nombre" placeholder="Móvil" required>
+                <input class="campos" type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input class="campos" type="text" id="apellido" name="apellido" placeholder="Apellido" >
+                <input class="campos" type="email" id="email" name="nombre" placeholder="Email">
+                <input class="campos" type="email" id="confemail" name="nombre" placeholder="Repetir Email">
+                <input class="campos" type="text" id="dni" name="nombre" placeholder="DNI">
+                <input class="campos" type="number" id="movil" name="nombre" placeholder="Móvil">
+
             </section>
             <section class="boton">
-                <input class="boton" type="submit" name="enviar">
+                <input class="boton" type="submit" name="enviar" onclick='return validar();'>
             </section>
         </div>
     </form>
+    <script src="validacion.js"></script>
 </body>
 </html>

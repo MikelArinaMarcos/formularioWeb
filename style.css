@@ -7,7 +7,7 @@
 
 .formulario {
     width: 80%;
-    max-width: 1000px;
+    max-width: 800px;
     background: #FFFFFF;
     padding: 30px;
     margin: auto;
@@ -20,7 +20,7 @@
 
 
 .formulario img {
-    height: auto;
+    height: 100%;
     width: 100%;
     color: #FFFFFF;
 }
@@ -37,7 +37,7 @@
 }
 
 .campos {
-    width: 45%;
+    width: 48%;
     background: none;
     margin:auto;
     padding: 10 px;
@@ -50,9 +50,11 @@
 }
 
 .boton {
-    width: 100%;
+    width: 50%;
     background-color: #00008B;
     color: #FFFFFF;
+    margin:auto;
+    text-align: center;
     border: none;
     padding: 1em;
     font-size: 18px;
